@@ -104,12 +104,6 @@ fn main() -> std::io::Result<()> {
         Err(e) => eprintln!("Error: {:?}", e), 
        };
 
-    // let lines = contents.lines();
-    // for (i, line) in lines.enumerate() {
-    //     if let Some(indx) = line.find("eight") {
-    //         println!("{0}: {1}", indx, line);
-    //     }
-    // }
     println!("Total sum: {:?}", total_sum);
 
     Ok(())
